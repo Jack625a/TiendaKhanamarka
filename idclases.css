@@ -1,0 +1,76 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+.productos{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.producto{
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+.carrito{
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,1);
+}
+#lista-carrito{
+    list-style: none;
+    padding: 5;
+}
+#lista-carrito li{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.eliminar-producto{
+    background-color:#f44336 ;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+.cantidad{
+    width: 35px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#formulario-emergente{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: aliceblue;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+.slider{
+    width: 100%;
+    overflow: hidden;
+}
+.slide{
+    display: block;
+}
+img{
+    width: 100%;
+    height: auto;
+}
